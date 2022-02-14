@@ -1,9 +1,8 @@
 package com.company;
-import com.company.practice1.MainPractice1;
 
 public class Main {
     public static void main(String[] args) {
-        MainPracticeInterface Run = new MainPractice1();
+        MainPracticeInterface Run = MainPracticeFactory.Get(2);
         Run._main(args);
     }
 }
