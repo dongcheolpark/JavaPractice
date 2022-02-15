@@ -2,9 +2,7 @@ package com.company.practice2;
 import com.company.MainPracticeInterface;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class MainPractice2 implements MainPracticeInterface {
     public void _main(String[] args) {
